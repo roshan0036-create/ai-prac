@@ -10,8 +10,7 @@ def initialize(cap1,cap2,target):
         path.append((x,y))
         if(x==target or y==target):
             return True
-        if search(3,y):
-            return True
+        
         if search(x,4):
             return True
         if search(0,y):
